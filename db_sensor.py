@@ -8,7 +8,7 @@ sensor = Adafruit_DHT.DHT11
 
 conn=pymysql.connect (host ="localhost",
                     user="raspi_user",
-                    passwd="jang9826",
+                    passwd="",
                     db="raspi_db")
 pin = '4'
 try :
